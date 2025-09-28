@@ -4,7 +4,6 @@ import io.qameta.allure.Description;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.config.HttpClientConfig;
-import io.restassured.filter.log.LogDetail;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.*;
 import steps.CourierSteps;

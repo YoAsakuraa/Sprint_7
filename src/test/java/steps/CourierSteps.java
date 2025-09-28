@@ -6,11 +6,9 @@ import io.restassured.response.Response;
 import testClass.CourierTestData;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;
 
 public class CourierSteps {
-    private final AuthorizationSteps authorizationSteps = new AuthorizationSteps();
 
     @Step("Создание валидного курьера")
     public Response createCourier(String body) {

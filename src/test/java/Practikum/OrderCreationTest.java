@@ -1,9 +1,5 @@
 package Practikum;
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.stream.Stream;
-
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.config.HttpClientConfig;
@@ -17,6 +13,10 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import steps.OrderCreationSteps;
 import steps.VerificationSteps;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.stream.Stream;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
