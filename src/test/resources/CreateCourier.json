@@ -1,0 +1,5 @@
+{
+  "login": "Login_{{UUID}}",
+  "password": "password123",
+  "firstName": "Courier_{{UUID}}"
+}

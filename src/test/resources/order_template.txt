@@ -1,0 +1,11 @@
+{
+    "firstName": "%s",
+    "lastName": "%s",
+    "address": "%s",
+    "metroStation": 4,
+    "phone": "%s",
+    "rentTime": 5,
+    "deliveryDate": "2020-06-06",
+    "comment": "%s",
+    "color": [%s]
+}
